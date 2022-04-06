@@ -1,0 +1,6 @@
+name: HuskHomesPerServerLimit
+version: '${project.version}'
+main: com.ghostchu.huskhomesperserverlimit.HuskHomesPerServerLimit
+api-version: 1.16
+depend: [ HuskHomes ]
+description: HuskHomesPerServerLimit
