@@ -55,7 +55,7 @@ public final class HuskHomesPerServerLimit extends JavaPlugin implements Listene
         if (!sameHomeNameOnLocalAlreadyExists)
             ownsOnThisServer++;
         int limitLocal = getConfig().getInt("slots");
-        if (ownsOnThisServer > limitLocal && player.hasPermission("huskhomesperserverlimit.bypass")) {
+        if (ownsOnThisServer > limitLocal && !player.hasPermission("huskhomesperserverlimit.bypass")) {
             event.setCancelled(true);
             event.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("message.out-of-slot")).replace("{slots}",String.valueOf(limitLocal)));
         }
