@@ -49,7 +49,7 @@ public final class HuskHomesPerServerLimit extends JavaPlugin implements Listene
         Player player = event.getPlayer();
         List<Home> playerHomes = HuskHomesAPI.getInstance().getHomes(player);
         List<Home> playerHomesLocal = playerHomes.stream().filter(home -> home.getServer().equals(serverName)).collect(Collectors.toList());
-        int ownsOnThisServer = playerHomes.size();
+        int ownsOnThisServer = playerHomesLocal.size();
         // 区分大小写
         boolean sameHomeNameOnLocalAlreadyExists = playerHomesLocal.stream().anyMatch(home->home.getName().equals(event.getHome().getName()));
         if (!sameHomeNameOnLocalAlreadyExists)
