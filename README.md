@@ -1,11 +1,13 @@
 # HuskHomesPerServerLimit
 
-## 简述
+## Description
 
-限制单个服务器上玩家创建的 Home 创建数量，但不影响全局。
+Limit the number of Homes on a single server.
 
-## 权限
+*HuskHomes global limit still works.*
+
+## Permission
 
 ```text
-huskhomesperserverlimit.bypass
+huskhomesperserverlimit.bypass - Bypass the limit
 ```
