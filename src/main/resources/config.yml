@@ -1,3 +1,4 @@
+config-version: 1
 slots: 3
 message:
   out-of-slot: "&cYou already own {slots} home(s), delete some homes before creating more."

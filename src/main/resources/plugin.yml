@@ -1,6 +1,6 @@
 name: HuskHomesPerServerLimit
 version: '${project.version}'
 main: com.ghostchu.huskhomesperserverlimit.HuskHomesPerServerLimit
-api-version: 1.16
+api-version: 1.13
 depend: [ HuskHomes ]
-description: HuskHomesPerServerLimit
+description: This plugin added limit for player homes on single server for HuskHomes.
