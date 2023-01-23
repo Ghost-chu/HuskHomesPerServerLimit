@@ -78,7 +78,7 @@
         <dependency>
             <groupId>net.william278</groupId>
             <artifactId>HuskHomes2</artifactId>
-            <version>3.1</version>
+            <version>3.2.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
